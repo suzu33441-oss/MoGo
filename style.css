@@ -1,0 +1,10 @@
+:root {
+    --accent-color: #95E1D3;
+    --accent-second-color: #F38181;
+    --tittle-color: #333333;
+    --text-color: #B6B6B6;
+    --button-color: #FFFFFF;
+}
+a {
+    color: var(--accent-color);
+}
