@@ -5,6 +5,9 @@
     --text-color: #B6B6B6;
     --button-color: #FFFFFF;
 }
-a {
-    color: var(--accent-color);
+:root {
+    --main-font: "Montserrat", sans-serif;
+    --second-font: "Roboto", sans-serif;
+    --third-font: "Kaushan Script", sans-serif; 
 }
+
