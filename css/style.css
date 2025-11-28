@@ -46,6 +46,17 @@ body {
     border-bottom: 3px solid var(--accent-second-color);
     padding-bottom: 10px;
 }
+.header-link-special {
+    color: var(--accent-second-color);
+}
+.header-link-special::after {
+    content: "";
+    display: flex;
+    height: 3px;
+    width: 100%;  
+    margin-top: 10px; 
+    background-color: var(--accent-second-color);
+}
 .services {
     padding-top: 68px;
 }
@@ -62,8 +73,14 @@ body {
     font-weight: 700;
     font-size: 30px;
     text-align: center;
-    border-bottom: 4px solid var(--accent-second-color);
-    padding-bottom: 40px;
+}
+.services-title::after {
+    content: "";
+    display: flex;
+    height: 4px;
+    width: 60px;
+    background-color: var(--accent-second-color);
+    margin: 40px auto 65px;
 }
 .services-list {
     display: flex;
@@ -94,7 +111,6 @@ body {
 }
 .team {
     padding-top: 100px;
-    padding-bottom: 80px;
 }
 .team-subtitle {
     font-family: var(--third-font);
@@ -109,8 +125,14 @@ body {
     font-weight: 700;
     font-size: 30px;
     text-align: center;
-    border-bottom: 4px solid var(--accent-second-color);
-    padding-bottom: 36px;
+}
+.team-title::after {
+    content: "";
+    display: flex;
+    height: 4px;
+    width: 60px;
+    background-color: var(--accent-second-color);
+    margin: 45px auto 36px;
 }
 .team-text {
     font-family: var(--second-font);
@@ -138,8 +160,13 @@ body {
     padding-top: 11px;
     text-align: center;
 }
+.team-container {
+    border-bottom: 1px solid var(--text-color);
+    padding-bottom: 80px;
+} 
 .footer {
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 .footer-copirate {
     font-family: var(--main-font);
@@ -150,10 +177,31 @@ body {
     color: var(--accent-second-color);
 }
 .footer-button {
-    size: 150px 40px;
     font-family: var(--main-font);
     font-weight: 700;
     color: var(--button-color);
-    border-radius: 0px;
+    border: none;
     background-color: var(--accent-color);
+    padding: 12px 38px 11px;
+    font-size: 14px;
+    line-height: 1;
+}
+.footer-input {
+    padding: 12px 10px 11px;
+    font-family: var(--second-font);
+    color: var(--text-color);
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+    border: 1px solid var(--text-color);
+    border-right: 0px;
+    width: 230px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-form {
+    display: flex;
 }
