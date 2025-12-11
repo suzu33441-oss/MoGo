@@ -86,7 +86,6 @@ body {
     display: flex;
     row-gap: 100px;
     column-gap: 70px;
-    padding-top: 65px;
     flex-wrap: wrap;
 }
 .services-item {
@@ -108,6 +107,7 @@ body {
     color: var(--text-color);
     font-family: var(--second-font);
     font-size: 15px;
+    line-height: 22px;
 }
 .team {
     padding-top: 100px;
@@ -139,8 +139,8 @@ body {
     color: var(--text-color);
     font-size: 15px;
     text-align: center;
-    padding-top: 45px;
     padding-bottom: 27px;
+    
 }
 .team-list {
     display: flex;
@@ -159,6 +159,7 @@ body {
     font-size: 15px;
     padding-top: 11px;
     text-align: center;
+    font-style: italic;
 }
 .team-container {
     border-bottom: 1px solid var(--text-color);
